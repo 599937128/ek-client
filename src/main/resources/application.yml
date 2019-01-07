@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#    enabled: false
+spring:
+  application:
+    name: uk1
+server:
+  port: 8001
